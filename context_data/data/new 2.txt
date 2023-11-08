@@ -1,0 +1,6 @@
+name: KAWS Sweat Long Sleeve Shirt
+price: 784.000 VND
+rate: 4.3
+number rate: 127
+description: This piece features a design of a father and son of KAWS' popular COMPANION character. One point on the back is a design of XX, the trademark of KAWS artwork.Uniqlo proudly presents the World’s Premier of KAWS newest artbook (Publisher: Phaidon). Launching Together: UT exclusive collection featuring original artwork designed in conjunction with KAWS art book release. Experience the cutting-edge fusion of artbook and T-shirts combined in an exciting new way.KAWS engages audiences far beyond the museums and galleries in which he regularly exhibits. Over the last two decades, KAWS has built a successful career with work that consistently shows his formal agility as an artist, as well as his underlying wit, irreverence, and affection for our times. He has collaborated extensively with UNIQLO, including by providing designs for the PEACE FOR ALL charity project in 2022, which was a huge worldwide success.
+type: Sweater

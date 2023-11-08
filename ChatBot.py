@@ -1,40 +1,40 @@
-from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
-from langchain import OpenAI
-import sys
-import os
-from IPython.display import Markdown, display
-os.environ["OPENAI_API_KEY"] = "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"
-def construct_index(directory_path):
-    # set maximum input size
-    max_input_size = 4096
-    # set number of output tokens
-    num_outputs = 2000
-    # set maximum chunk overlap
-    max_chunk_overlap = 20
-    # set chunk size limit
-    chunk_size_limit = 600
+# from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
+# from langchain import OpenAI
+# import sys
+# import os
+# # from IPython.display import Markdown, display
+# os.environ["OPENAI_API_KEY"] = "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"
+# def construct_index(directory_path):
+#     # set maximum input size
+#     max_input_size = 4096
+#     # set number of output tokens
+#     num_outputs = 2000
+#     # set maximum chunk overlap
+#     max_chunk_overlap = 20
+#     # set chunk size limit
+#     chunk_size_limit = 600
 
-    # define prompt helper
-    prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
+#     # define prompt helper
+#     prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
 
-    # define LLM
-    llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.5, model_name="text-davinci-003", max_tokens=num_outputs))
+#     # define LLM
+#     llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.5, model_name="text-davinci-003", max_tokens=num_outputs))
 
-    documents = SimpleDirectoryReader(directory_path).load_data()
+#     documents = SimpleDirectoryReader(directory_path).load_data()
 
-    service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
-    index = GPTSimpleVectorIndex.from_documents(documents, service_context=service_context)
+#     service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, prompt_helper=prompt_helper)
+#     index = GPTSimpleVectorIndex.from_documents(documents, service_context=service_context)
 
-    index.save_to_disk('index.json')
+#     index.save_to_disk('index.json')
 
-    return index
+#     return index
 
-def ask_ai():
-    index = GPTSimpleVectorIndex.load_from_disk('index.json')
-    query = "what about uniqlo"
-    response = index.query(query)
-    print(response)
+# def ask_ai():
+#     index = GPTSimpleVectorIndex.load_from_disk('index.json')
+#     query = "what about uniqlo"
+#     response = index.query(query)
+#     print(response)
 
-construct_index("drive/MyDrive/context_data/data")
+# # construct_index("context_data/data")
 
-ask_ai()
+# ask_ai()

@@ -1,0 +1,6 @@
+name: HEATTECH Pile Lined Sweat Full-Zip Hoodie
+price:  980000 VND
+rate: 4
+number rate: 46
+description: Heat of Absorption, and HEAT RETENTION 'HEATTECH'. Waist pocket with ribbed binder. Side piping and hood lining in matching fabric and colors. Relaxed cut with a roomy fit around the chest and shoulders for easy layering. Raglan sleeves for easier arm movement. Undo the zipper to draw attention to the inner waist pocket fabric.
+type: hoodie
