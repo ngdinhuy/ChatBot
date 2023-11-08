@@ -1,0 +1,8 @@
+name: Ultra Stretch Dry-EX Tapered Pants
+old price:  800000 VND
+new price: 720000 VND
+discount: 10%
+rate: 4
+number rate: 46
+description: Updated with ultra-fine yarn for a smoother feel. Incredibly quick-drying fabric developed after years of research. These versatile pants are suitable for casual, business, or even sporty occasions. Zippered hip pockets for added convenience. Ultra-stretch fabric that stretches freely in all directions for outstanding ease of movement. Smooth 'AIRism' fabric with quick-drying DRY technology. Made with recycled polyester. Sleek tapered cut. The pants combine style with easy movement and a silky smooth feel.
+type: pants

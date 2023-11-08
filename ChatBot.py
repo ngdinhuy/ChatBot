@@ -2,8 +2,8 @@ from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleV
 from langchain import OpenAI
 import sys
 import os
-from IPython.display import Markdown, display
-os.environ["OPENAI_API_KEY"] = "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"
+# from IPython.display import Markdown, display
+os.environ["OPENAI_API_KEY"] = "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"
 def construct_index(directory_path):
     # set maximum input size
     max_input_size = 4096
@@ -35,6 +35,6 @@ def ask_ai():
     response = index.query(query)
     print(response)
 
-construct_index("drive/MyDrive/context_data/data")
+# construct_index("context_data/data")
 
 ask_ai()

@@ -1,0 +1,6 @@
+name: Extra Fine Cotton Broadcloth Printed Short Sleeve Shirt
+price:  489000 VND
+rate: 5
+number rate: 2
+description: Made of 100% ultra-long cotton fibers with an elegant texture. Updated with an on-trend, relaxed regular fit. Button-down collar easily dresses up or down. The collar roll ensures a sleek look even when the top button is unbuttoned. Designed for easy arm movement. Stitching selected to create a perfectly casual style.
+type: Shirt

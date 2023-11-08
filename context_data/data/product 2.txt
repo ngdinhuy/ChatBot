@@ -1,0 +1,6 @@
+name: Studio Ghibli Sweat Long Sleeve Shirt
+price: 784000 VND
+rate: 4.5
+number rate: 20
+description: The design incorporates a wide variety of art featuring Ghibli's best-known works, as well as the work of Thai artist Kanyada. Through this collection, we hope that the brilliance and energy of Studio Ghibli reaches each and every one of you. Hey, Let’s Go!Kanyada Phatan Artist from Thailand. "From Pak Thong Chai" is being serialized in the monthly booklet "Neppu" published by Studio Ghibli in Japan. She contributes a photo and poem each month. She is the author of “The Tale of Ghibli Museum” and co-author of “Goro, Where did you Come from, Where are you Going?” and “Words of Wisdom I Heard from Ghibli’s Suzuki About Work.” (Both published in Japan). In 2022, she published "KANYADA", a collection of photographs of the beautiful scenery of Pak Thongchai, Thailand.
+type: sweater
